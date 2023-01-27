@@ -98,8 +98,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_MOV] = LAYOUT_split_3x6_3(
 
     XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX , XXXXXXX  , XXXXXXX,                C(KC_INS) , KC_PGDN , KC_PGUP , XXXXXXX  , S(KC_INS) , KC_PSCR,
-    KC_BSPC , KC_LGUI , KC_RALT , KC_LSFT , KC_LCTL  , XXXXXXX,                KC_LEFT   , KC_DOWN , KC_UP   , KC_RIGHT , KC_DEL    , KC_ENT ,
-    _______ , XXXXXXX , XXXXXXX , KC_CAPS ,C(KC_LALT), XXXXXXX,                KC_HOME   , XXXXXXX , XXXXXXX , KC_END   , XXXXXXX   , _______,  
+    KC_BSPC , KC_LGUI , KC_LALT , KC_LSFT , KC_LCTL  , XXXXXXX,                KC_LEFT   , KC_DOWN , KC_UP   , KC_RIGHT , KC_DEL    , KC_ENT ,
+    _______ , XXXXXXX , KC_RALT , KC_CAPS ,C(KC_LALT), XXXXXXX,                KC_HOME   , KC_HOME , KC_END  , KC_END   , XXXXXXX   , _______,  
 
                                       KC_LGUI, LOWER   , MEH(KC_ENT),     SPCMOV , RAISE , TD(TD_ALT)
   ),
